@@ -1,10 +1,3723 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="cn" class="app fadeInUp animated">
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+    <meta charset="utf-8" />
+    <title>微盟旺铺</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link href="/assets/stylesheets/bootstrap.min.css" rel="stylesheet" />
+    <link href="/assets/stylesheets/animate.min.css" rel="stylesheet" />
+    <link href="/assets/stylesheets/font-awesome.min.css" rel="stylesheet" />
+    <link href="/assets/stylesheets/style.min.css" rel="stylesheet" />
+    <link href="/assets/stylesheets/plugins/chosen/chosen.min.css" rel="stylesheet" />
+    <link href="/assets/stylesheets/plugins/daterangepicker/daterangepicker-bs3.min.css" rel="stylesheet" />
+    <link href="/assets/stylesheets/verification.min.css" rel="stylesheet" />
+
+    <!--[if lt IE 9]><script src="/assets/javascripts/ie8/inie8.min.js"></script><![endif]-->
+    <script type="text/javascript">
+        var _speedMark = new Date(),
+            www_version = 1201405081146;
+    </script>
+    <style type="text/css">
+        .top_left {
+            margin-right: 0;
+            padding-right: 0;
+            width: 76%;
+        }
+
+        .top_right {
+            padding-left: 0;
+            width: 24%;
+        }
+
+        .vbox .main_top {
+            top: 100px;
+        }
+
+        .panel .table-striped > tbody > tr:nth-child(2n+1) > td, .panel .table-striped > tbody > tr:nth-child(2n+1) > th {
+            background-color: #fff;
+        }
+
+        .table-striped > tbody > tr:nth-child(2n+1) > th {
+            background-color: #fff;
+        }
+
+        .gray {
+            background-color: #f9f9f9;
+        }
+    </style>
 </head>
+
 <body>
-666666666777
+    
+                    <table class="table table-striped  m-b-none">
+                        <thead>
+                            <tr>
+                                
+                                <th class="with-checkbox">
+                                    <input type="checkbox" />
+                                </th>
+                                
+                                <th>商品信息</th>
+                                <th class="col-sm-2">实收款</th>
+                                <th class="col-sm-2">配送及支付方式</th>
+                                <th class="col-sm-2">状态</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2094282" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6717755509256263718</span>
+
+                                    <span class="m-r">下单时间：2018-05-16 15:13:57</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：张国荣</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2094282&index=&content=&from=list&OrderNo=6717755509256263718" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2094282?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2094282?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6717755509256263718&orderId=2094282&weimobOpenId=oAvF9wlHy2wSgBt5f_LChBSqxCfM&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2090584" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6710934137642143865</span>
+
+                                    <span class="m-r">下单时间：2018-05-16 11:55:08</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：王婕</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2090584&index=&content=&from=list&OrderNo=6710934137642143865" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2090584?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2090584?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6710934137642143865&orderId=2090584&weimobOpenId=oAvF9wny7kf71shr-yDHdXXF25u4&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2090524" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6709315639650966815</span>
+
+                                    <span class="m-r">下单时间：2018-05-16 11:52:59</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：王婕</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2090524&index=1&content=逢焕卿电话13612171235，购买中电话写错&from=list&OrderNo=6709315639650966815" data-toggle="ajaxModal" title="逢焕卿电话13612171235，购买中电话写错" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-danger m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2090524?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2090524?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6709315639650966815&orderId=2090524&weimobOpenId=oAvF9wny7kf71shr-yDHdXXF25u4&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2083498" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6718252482245989926</span>
+
+                                    <span class="m-r">下单时间：2018-05-16 08:21:21</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户： 张海利</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2083498&index=&content=&from=list&OrderNo=6718252482245989926" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2083498?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2083498?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6718252482245989926&orderId=2083498&weimobOpenId=oAvF9wsxGr-nBKNKrTh3xQpK1e2U&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2074026" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6709310389028469871</span>
+
+                                    <span class="m-r">下单时间：2018-05-15 15:05:04</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：杨君</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2074026&index=&content=&from=list&OrderNo=6709310389028469871" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2074026?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2074026?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6709310389028469871&orderId=2074026&weimobOpenId=oAvF9wmYQn8nsqIQ75NuhiGZlPsY&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2069450" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6708681472842234260</span>
+
+                                    <span class="m-r">下单时间：2018-05-15 11:58:43</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：玉兰</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2069450&index=&content=&from=list&OrderNo=6708681472842234260" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2069450?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2069450?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6708681472842234260&orderId=2069450&weimobOpenId=oAvF9wnAVwvmuyVMWRoQkUfYOOTQ&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2068094" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6708681472674461848</span>
+
+                                    <span class="m-r">下单时间：2018-05-15 11:10:10</span>
+
+                                    <span class="m-r">订单来源： 微客 (梁军)</span>
+
+                                    
+
+                                    <span>客户：梁军</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2068094&index=&content=&from=list&OrderNo=6708681472674461848" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2068094?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2068094?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6708681472674461848&orderId=2068094&weimobOpenId=oAvF9wiZAaGC6IxOhOndu_MnRh8w&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2067630" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6711562188074780683</span>
+
+                                    <span class="m-r">下单时间：2018-05-15 10:56:29</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：A0刘继镅</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2067630&index=&content=&from=list&OrderNo=6711562188074780683" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2067630?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x2
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2067630?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量2]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        1040.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6711562188074780683&orderId=2067630&weimobOpenId=oAvF9wpcI56bnA_8_FYRezwTE4jU&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2050963" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6720498163209666706</span>
+
+                                    <span class="m-r">下单时间：2018-05-14 13:56:55</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：🍓～</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2050963&index=&content=&from=list&OrderNo=6720498163209666706" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2050963?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2050963?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6720498163209666706&orderId=2050963&weimobOpenId=oAvF9wnK3mjuLqFrKmgFDgJFajcg&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2042969" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6709239161689177524</span>
+
+                                    <span class="m-r">下单时间：2018-05-14 10:22:49</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：亮剑</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2042969&index=&content=&from=list&OrderNo=6709239161689177524" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2042969?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2042969?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6709239161689177524&orderId=2042969&weimobOpenId=oAvF9wu00b9Kr48mqk9eEVcDh_Zc&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2038072" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6720572065910566046</span>
+
+                                    <span class="m-r">下单时间：2018-05-14 01:22:32</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：魏爱丽</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2038072&index=&content=&from=list&OrderNo=6720572065910566046" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2038072?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2038072?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6720572065910566046&orderId=2038072&weimobOpenId=oAvF9wiTKuIy0EPoa6BMiy3IH8z0&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2034955" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6709308655901421698</span>
+
+                                    <span class="m-r">下单时间：2018-05-13 19:54:06</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：天下</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2034955&index=&content=&from=list&OrderNo=6709308655901421698" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2034955?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2034955?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6709308655901421698&orderId=2034955&weimobOpenId=oAvF9wlgBb3povlv9jLqD_AZZFhM&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2030568" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6719938738351715775</span>
+
+                                    <span class="m-r">下单时间：2018-05-13 15:40:36</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：创健学院</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2030568&index=&content=&from=list&OrderNo=6719938738351715775" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2030568?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2030568?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>交易关闭</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2030537" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6719938738351715770</span>
+
+                                    <span class="m-r">下单时间：2018-05-13 15:39:18</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：创健学院</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2030537&index=&content=&from=list&OrderNo=6719938738351715770" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2030537?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2030537?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>交易关闭</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2027327" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6720572065910564124</span>
+
+                                    <span class="m-r">下单时间：2018-05-13 12:59:59</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：R U ready?</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2027327&index=&content=&from=list&OrderNo=6720572065910564124" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2027327?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2027327?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6720572065910564124&orderId=2027327&weimobOpenId=oAvF9wvGbM4xCyGxS27SCqpjupME&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2018210" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6710997512611290573</span>
+
+                                    <span class="m-r">下单时间：2018-05-13 09:22:07</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：王婕</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2018210&index=&content=&from=list&OrderNo=6710997512611290573" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2018210?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            已收货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2018210?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>交易完成</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2017994" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6709238290782359721</span>
+
+                                    <span class="m-r">下单时间：2018-05-13 08:58:38</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：王婕</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2017994&index=&content=&from=list&OrderNo=6709238290782359721" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2017994?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            已收货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2017994?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>交易完成</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2008776" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6718253418511586610</span>
+
+                                    <span class="m-r">下单时间：2018-05-12 14:39:27</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：云月</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2008776&index=&content=&from=list&OrderNo=6718253418511586610" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2008776?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x5
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2008776?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量5]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        2600.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6718253418511586610&orderId=2008776&weimobOpenId=oAvF9wl-9RwCgqomnn1LJug20g1w&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2005571" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6710996653206147455</span>
+
+                                    <span class="m-r">下单时间：2018-05-12 11:30:49</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：冯玉娥</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2005571&index=&content=&from=list&OrderNo=6710996653206147455" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2005571?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2005571?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6710996653206147455&orderId=2005571&weimobOpenId=oAvF9wiiZ_12e8Pk7kvM33rxg6PE&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2004142" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6718253426602845479</span>
+
+                                    <span class="m-r">下单时间：2018-05-12 10:52:05</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：A0刘继镅</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2004142&index=&content=&from=list&OrderNo=6718253426602845479" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2004142?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2004142?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6718253426602845479&orderId=2004142&weimobOpenId=oAvF9wpcI56bnA_8_FYRezwTE4jU&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2000355" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6718253426753839855</span>
+
+                                    <span class="m-r">下单时间：2018-05-12 09:06:59</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：Halley</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2000355&index=&content=&from=list&OrderNo=6718253426753839855" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2000355?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2000355?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6718253426753839855&orderId=2000355&weimobOpenId=oAvF9wkWRMJxIk3i-J3CZJFwFuWo&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="2000269" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6718253426854503126</span>
+
+                                    <span class="m-r">下单时间：2018-05-12 08:59:00</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：A0刘继镅</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=2000269&index=&content=&from=list&OrderNo=6718253426854503126" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/2000269?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x4
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/2000269?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量4]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        2080.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6718253426854503126&orderId=2000269&weimobOpenId=oAvF9wpcI56bnA_8_FYRezwTE4jU&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="1999881" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6708744841855419715</span>
+
+                                    <span class="m-r">下单时间：2018-05-12 08:14:04</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：常伟（囧途）</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=1999881&index=&content=&from=list&OrderNo=6708744841855419715" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/1999881?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            已收货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1803071344345832.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/1999881?PageId=19">
+                                                            
+                                                            女性防癌筛查套餐
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥1210.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101179】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        1210.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>交易完成</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="1993020" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6711567525111568958</span>
+
+                                    <span class="m-r">下单时间：2018-05-11 18:14:23</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：常贺凌</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=1993020&index=&content=&from=list&OrderNo=6711567525111568958" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/1993020?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            待发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1805111036483256.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/1993020?PageId=19">
+                                                            
+                                                            康乃馨专享套餐 
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥520.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101198】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        520.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已支付，待提货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+
+                                    <a href="/vshop/Ajax/ZTAjax/ZTOrderHx/0?orderNo=6711567525111568958&orderId=1993020&weimobOpenId=oAvF9wuV-n5Xc3J0TkKw9mReLl6g&source=3" data-toggle="ajaxPost" data-msg="确认要核销该笔订单？核销后将不能取消">
+
+                                        <i class="icon iconfont" style="font-size: 20px; margin-left: 10.5px;"></i>
+                                    </a>
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="1974275" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6711003717638809434</span>
+
+                                    <span class="m-r">下单时间：2018-05-10 17:24:10</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：钻石的眼泪</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=1974275&index=&content=&from=list&OrderNo=6711003717638809434" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/1974275?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            已发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1803071118296153.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/1974275?PageId=19">
+                                                            <span class="label label-danger m-r-xs" style="line-height: 20px">团</span>
+                                                            心肌梗塞易感风险评估
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥298.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101164】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        268.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【商家配送】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已发货，待收货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="1974114" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6708672742320179948</span>
+
+                                    <span class="m-r">下单时间：2018-05-10 17:12:41</span>
+
+                                    <span class="m-r">订单来源：旺铺</span>
+
+                                    
+
+                                    <span>客户：【一路阳光】</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=1974114&index=&content=&from=list&OrderNo=6708672742320179948" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/1974114?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            已发货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Goods/1803071118296153.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/1974114?PageId=19">
+                                                            <span class="label label-danger m-r-xs" style="line-height: 20px">团</span>
+                                                            心肌梗塞易感风险评估
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥298.00
+                                                        <span class="m-l-xs">
+                                                            [数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101164】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        268.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【商家配送】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>已发货，待收货</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="1953788" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6720010073066269268</span>
+
+                                    <span class="m-r">下单时间：2018-05-09 16:26:20</span>
+
+                                    <span class="m-r">订单来源： 微客 (原点○)</span>
+
+                                    
+
+                                    <span>客户：原点○</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=1953788&index=&content=&from=list&OrderNo=6720010073066269268" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/1953788?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            已收货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Group/1801241024538257.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/1953788?PageId=19">
+                                                            
+                                                            健康品质C套餐-聚惠活动
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥595.00
+                                                        <span class="m-l-xs">
+                                                            [男/数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101161】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        595.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>交易完成</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="1770965" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6710984557376847776</span>
+
+                                    <span class="m-r">下单时间：2018-04-28 09:28:44</span>
+
+                                    <span class="m-r">订单来源： 微客 (原点○)</span>
+
+                                    
+
+                                    <span>客户：原点○</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=1770965&index=&content=&from=list&OrderNo=6710984557376847776" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/1770965?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            已收货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Group/1801241025020905.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/1770965?PageId=19">
+                                                            
+                                                            健康品质C套餐-聚惠活动
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥655.00
+                                                        <span class="m-l-xs">
+                                                            [女/数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101162】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        655.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>交易完成</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="1770937" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6708732760243105188</span>
+
+                                    <span class="m-r">下单时间：2018-04-28 09:27:25</span>
+
+                                    <span class="m-r">订单来源： 微客 (原点○)</span>
+
+                                    
+
+                                    <span>客户：原点○</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=1770937&index=&content=&from=list&OrderNo=6708732760243105188" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/1770937?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            已收货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Group/1801241025020905.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/1770937?PageId=19">
+                                                            
+                                                            健康品质C套餐-聚惠活动
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥655.00
+                                                        <span class="m-l-xs">
+                                                            [女/数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101162】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        655.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>交易完成</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="1770914" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6717687175158161375</span>
+
+                                    <span class="m-r">下单时间：2018-04-28 09:25:56</span>
+
+                                    <span class="m-r">订单来源： 微客 (原点○)</span>
+
+                                    
+
+                                    <span>客户：原点○</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=1770914&index=&content=&from=list&OrderNo=6717687175158161375" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/1770914?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            已收货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Group/1801241025020905.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/1770914?PageId=19">
+                                                            
+                                                            健康品质C套餐-聚惠活动
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥655.00
+                                                        <span class="m-l-xs">
+                                                            [女/数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101162】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        655.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>交易完成</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                            <tr class="gray">
+                                
+                                <td>
+                                    <input type="checkbox" value="1770891" />
+                                </td>
+                                
+                                <td colspan="7">
+                                    <span class="m-r">订单编号：6720009338433609980</span>
+
+                                    <span class="m-r">下单时间：2018-04-28 09:24:25</span>
+
+                                    <span class="m-r">订单来源： 微客 (原点○)</span>
+
+                                    
+
+                                    <span>客户：原点○</span>
+
+                                    
+                                    <a href="javascript:;" data-remote="/vshop/Order/AddOrderFlag?id=1770891&index=&content=&from=list&OrderNo=6720009338433609980" data-toggle="ajaxModal" title="" class="pull-right m-l-sm">
+                                        <i class="fa fa-flag fa-lg text-muted m-r-xs"></i>
+                                    </a>
+                                    
+
+                                    <a href="/vshop/Order/Pack/OrderPackDetailNew/1770891?PageId=19" class="btn btn-default btn-xs pull-right" title="查看详情">
+                                        <i class="fa fa-search text-muted m-r-xs"></i>订单详情
+                                    </a>
+                                </td>
+                            </tr>
+
+                            
+                            <!--非送礼的订单视图-->
+                            
+                            <tr>
+                                
+                                <td></td>
+                                
+                                <td>
+                                    <p>
+                                        包裹1
+                                        <span class="pull-right">
+                                            已收货
+                                        </span>
+                                    </p>
+                                    
+                                    <ul class="list-group no-borders">
+                                        
+                                        <li class="list-group-item ">
+                                            <div class="media">
+                                                <span class="pull-left thumb-sm">
+                                                    <img src="http://shopimg.weimob.com/56031626/Group/1801241024538257.jpg@0e_320w_320h_0c_0i_0o_90Q_1x.src" alt="John said" />
+                                                </span>
+                                                
+                                                <div class="pull-right">
+                                                    x1
+                                                </div>
+                                                <div class="media-body">
+                                                    <div>
+                                                        <a href="/vshop/Order/Pack/OrderPackDetailNew/1770891?PageId=19">
+                                                            
+                                                            健康品质C套餐-聚惠活动
+                                                        </a>
+                                                    </div>
+                                                    <small class="text-muted">单价：￥595.00
+                                                        <span class="m-l-xs">
+                                                            [男/数量1]
+                                                        </span>
+                                                        <span>
+                                                            【商家编码：TS0101161】
+                                                        </span>
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        
+                                    </ul>
+                                </td>
+
+                                <td>
+                                    
+                                    <p class=" m-b-xs">
+                                        ￥
+                                        595.00
+                                        
+                                    </p>
+                                    <small class="text-muted">[含运费:0.00]
+                                    </small>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>【到店自提】</p>
+                                    
+                                    <p>在线支付-微信支付</p>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                    <p>交易完成</p>
+                                    
+
+                                    <!--同城发货-->
+                                    
+
+                                    <!--核销按钮-->
+                                    
+                                   
+
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+
+
+
+    <script type="text/html" id="goods_tr">
+        {{each data as item}}
+  <tr>
+      <td>
+          <input type="checkbox" name="goodId" class="js_choose_good" value="{{item.id}}">
+      </td>
+      <td>
+          <div class="media">
+              <span class="pull-left thumb-sm">
+                  <img src="{{item.img}}" alt="John said"></span>
+              <div class="media-body">
+                  <div>
+                      <a href="#">{{item.name}}</a>
+                      <br>
+                      <span class="text-muted">{{item.desc}}</span>
+                  </div>
+              </div>
+          </div>
+      </td>
+      <td>{{item.num}}</td>
+  </tr>
+        {{/each}}
+    </script>
+
+
+    <script src="/assets/javascripts/sea-modules/seajs/seajs/2.2.0/sea.js?v="></script>
+    <script src="/assets/javascripts/seajs_config.js?v= "></script>
+    <script type="text/javascript">
+        seajs.use(["dist/application/app.js", "dist/order/init.js"])
+    </script>
 </body>
 </html>
