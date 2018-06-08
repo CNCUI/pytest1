@@ -4,3 +4,4 @@ str = str * 18 +str;
 print(str);
 s=2;
 s=3;
+ss=3;
