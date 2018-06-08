@@ -5,3 +5,4 @@ print(str);
 s=2;
 s=3;
 ss=3;
+ss=44;
